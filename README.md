@@ -1,4 +1,4 @@
-# 🌍 Projet : Analyse de la Qualité de l'Air à Douala (Cameroun)
+# Projet : Analyse de la Qualité de l'Air à Douala (Cameroun)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-blue?logo=pandas)](https://pandas.pydata.org/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Contexte
+##  Contexte
 
 Douala, capitale économique du Cameroun, connaît une croissance urbaine rapide et une activité industrielle intense. Cette situation génère une pollution atmosphérique qui impacte la santé des populations. Des capteurs mesurent en continu plusieurs polluants (PM2.5, PM10, NO₂, O₃, CO) ainsi que des variables météorologiques (température, humidité, vitesse du vent).
 
@@ -21,7 +21,7 @@ L'objectif de ce projet est de construire un **pipeline d'analyse complet** pour
 
 ---
 
-## 🎯 Questions à traiter
+##  Questions à traiter
 
 1. **Q1** : Quels polluants sont les plus élevés et à quelles heures de la journée ?
 2. **Q2** : Existe-t-il une **saisonnalité** dans les niveaux de pollution ?
@@ -30,9 +30,9 @@ L'objectif de ce projet est de construire un **pipeline d'analyse complet** pour
 
 ---
 
-## 📂 Données
+##  Données
 
-### Sources envisagées
+## Sources envisagées
 - **OpenAQ API** (données réelles) : [openaq.org](https://openaq.org/)
 - **WHO Air Quality Database** : données historiques mondiales
 - **Génération synthétique** (faute de données locales suffisantes)
@@ -53,7 +53,7 @@ Pour ce projet, nous utilisons un **jeu de données synthétique réaliste** gé
 
 ---
 
-## 🔬 Pipeline d’analyse (étapes détaillées)
+##  Pipeline d’analyse (étapes détaillées)
 
 ### 1. Chargement et exploration (EDA)
 - Chargement du CSV avec `pandas`.
@@ -108,7 +108,7 @@ Pour ce projet, nous utilisons un **jeu de données synthétique réaliste** gé
 
 ---
 
-## 📊 Résultats attendus
+##  Résultats attendus
 
 | Question | Réponse résumée |
 |----------|----------------|
@@ -119,7 +119,7 @@ Pour ce projet, nous utilisons un **jeu de données synthétique réaliste** gé
 
 ---
 
-## 🚀 Exécution du projet
+##  Exécution du projet
 
 ### Prérequis
 ```bash
@@ -141,7 +141,7 @@ Ou ouvrez le notebook Jupyter et exécutez les cellules séquentiellement.
 
 ---
 
-## 📁 Structure du dépôt
+##  Structure du dépôt
 
 ```
 air-quality-douala/
@@ -152,7 +152,7 @@ air-quality-douala/
 
 ---
 
-## 🧪 Aperçu des visualisations
+##  Aperçu des visualisations
 
 ### Carte de chaleur hebdomadaire
 ![Heatmap](figures/heatmap_hour_day.png)
@@ -167,7 +167,7 @@ air-quality-douala/
 
 ---
 
-## 💡 Recommandations finales
+##  Recommandations finales
 
 - **Renforcer la surveillance** aux heures de pointe (7‑9h, 18‑20h).
 - **Mettre en place des jours sans voiture** pendant la saison sèche (janvier-février).
